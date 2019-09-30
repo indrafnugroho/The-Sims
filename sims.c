@@ -58,7 +58,7 @@ void Nap (SIMS *s) {
 	if (IsEnergyValid(*s, 10, '+')) {
 		Energy(*s) += 10;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -68,7 +68,7 @@ void Sleep (SIMS *s) {
 	if (IsEnergyValid(*s, 15, '+')) {
 		Energy(*s) += 15;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -78,7 +78,7 @@ void EatHamburger (SIMS *s) {
 	if (IsEnergyValid(*s, 5, '+')) {
 		Energy(*s) += 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -88,7 +88,7 @@ void EatPizza (SIMS *s) {
 	if (IsEnergyValid(*s, 10, '+')) {
 		Energy(*s) += 10;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -98,7 +98,7 @@ void EatSteaknBeans (SIMS *s) {
 	if (IsEnergyValid(*s, 15, '+')) {
 		Energy(*s) += 15;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -108,7 +108,7 @@ void DrinkWater (SIMS *s) {
 	if (IsHygieneValid(*s, 5, '-')) {
 		Energy(*s) -= 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -119,7 +119,7 @@ void DrinkCoffee (SIMS *s) {
 		Energy(*s) += 5;
 		Hygiene(*s) -= 10;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -130,7 +130,7 @@ void DrinkJuice (SIMS *s) {
 		Energy(*s) += 10;
 		Hygiene(*s) -= 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -140,7 +140,7 @@ void PeePee (SIMS *s) {
 	if (IsHygieneValid(*s, 5, '+')) {
 		Hygiene(*s) += 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -151,7 +151,7 @@ void PooPoo (SIMS *s) {
 		Energy(*s) -= 5;
 		Hygiene(*s) += 10;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -163,7 +163,7 @@ void GoToCafe (SIMS *s) {
 		Hygiene(*s) -= 5;
 		Fun(*s) += 15;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -174,7 +174,7 @@ void SocMed (SIMS *s) {
 		Energy(*s) -= 10;
 		Fun(*s) += 10;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -185,7 +185,7 @@ void PlayComputer (SIMS *s) {
 		Energy(*s) -= 10;
 		Fun(*s) += 15;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -196,7 +196,7 @@ void TakeAShower (SIMS *s) {
 		Hygiene(*s) += 15;
 		Energy(*s) -= 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -206,7 +206,7 @@ void WashHands (SIMS *s) {
 	if (IsHygieneValid(*s, 5, '+')) {
 		Hygiene(*s) += 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -217,7 +217,7 @@ void ListenToRadio (SIMS *s) {
 		Fun(*s) += 10;
 		Energy(*s) -= 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -228,7 +228,7 @@ void ReadNewspaper (SIMS *s) {
 		Fun(*s) += 5;
 		Energy(*s) -= 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
 
@@ -239,6 +239,6 @@ void ReadNovel (SIMS *s) {
 		Fun(*s) += 10;
 		Energy(*s) -= 5;
 	} else {
-		printf("Aksi tidak valid");
+		printf("Aksi tidak valid\n");
 	}
 }
