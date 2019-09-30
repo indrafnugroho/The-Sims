@@ -12,58 +12,58 @@ int main () {
         ShowStats(s); printf("\n");
         printf("What will you do? (type answer in Bahasa)\n");
         scanf("%s", inwords);
-        if (inwords == "Tidur Siang") {
+        if (strcmp(inwords, "Tidur Siang") == 0) {
             Nap(&s);
         }
-        else if (inwords == "Tidur Malam") {
+        else if (strcmp(inwords, "Tidur Malam") == 0) {
             Sleep(&s);
         }
-        else if (inwords == "Makan Hamburger") {
+        else if (strcmp(inwords, "Makan Hamburger") == 0){
             EatHamburger(&s);
         }
-        else if (inwords == "Makan Pizza") {
+        else if (strcmp(inwords,"Makan Pizza") == 0) {
             EatPizza(&s);
         }
-        else if (inwords == "Makan Steak and Beans") {
+        else if (strcmp(inwords, "Makan Steak and Beans") == 0) {
             EatSteaknBeans(&s);
         }
-        else if (inwords == "Minum Air") {
+        else if (strcmp(inwords, "Minum Air") == 0) {
             DrinkWater(&s);
         }
-        else if (inwords == "Minum Kopi") {
+        else if (strcmp(inwords,"Minum Kopi") == 0) {
             DrinkCoffee(&s);
         }
-        else if (inwords == "Minum Jus") {
+        else if (strcmp(inwords,"Minum Jus") == 0) {
             DrinkJuice(&s);
         }
-        else if (inwords == "Buang Air Kecil") {
+        else if (strcmp(inwords,"Buang Air Kecil") == 0) {
             PeePee(&s);
         }
-        else if (inwords == "Buang Air Besar") {
+        else if (strcmp(inwords,"Buang Air Besar") == 0) {
             PooPoo(&s);
         }
-        else if (inwords == "Bersosialisasi ke Kafe") {
+        else if (strcmp(inwords,"Bersosialisasi ke Kafe") == 0) {
             GoToCafe(&s);
         }
-        else if (inwords == "Bermain Media Sosial") {
+        else if (strcmp(inwords, "Bermain Media Sosial") == 0) {
             SocMed(&s);
         }
-        else if (inwords == "Bermain Komputer") {
+        else if (strcmp(inwords, "Bermain Komputer") == 0) {
             PlayComputer(&s);
         }
         else if (strcmp(inwords, "Mandi") == 0) {
             TakeAShower(&s);
         }
-        else if (inwords == "Cuci Tangan") {
+        else if (strcmp(inwords, "Cuci Tangan") == 0) {
             WashHands(&s);
         }
-        else if (inwords == "Mendengarkan Musik di Radio") {
+        else if (strcmp(inwords,"Mendengarkan Musik di Radio") == 0) {
             ListenToRadio(&s);
         }
-        else if (inwords == "Membaca Koran") {
+        else if (strcmp(inwords,"Membaca Koran") == 0) {
             ReadNewspaper(&s);
         }
-        else if (inwords == "Membaca Novel") {
+        else if (strcmp(inwords, "Membaca Novel") == 0) {
             ReadNovel(&s);
         }
         else {

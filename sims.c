@@ -4,6 +4,9 @@
 void Start (SIMS *s) {
 // Menentukan initial state Sims saat bangun tidur,
 // yaitu Hygiene=0, Energy=10, Fun=0.
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("| Selamat Datang Di THE SIMS SIMULATOR|\n");
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 	Hygiene(*s) = 0;
 	Energy(*s) = 10;
 	Fun(*s) = 0;
@@ -36,7 +39,7 @@ boolean IsHygieneValid (SIMS s, int x, char op) {
 boolean IsEnergyValid (SIMS s, int x, char op) {
 // Menghasilkan true apabila nilai energy awal
 // ditambah/dikurang x valid, yaitu ValMin <= (Energy(S) +- x) <= ValMax
-	if (op=='+') {
+	if (op =='+') {
 		return ((Energy(s)+x >= ValMin) && (Energy(s)+x <= ValMax));
 	} else {
 		return ((Energy(s)-x >= ValMin) && (Energy(s)-x <= ValMax));
