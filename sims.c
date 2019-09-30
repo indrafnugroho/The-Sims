@@ -4,9 +4,25 @@
 void Start (SIMS *s) {
 // Menentukan initial state Sims saat bangun tidur,
 // yaitu Hygiene=0, Energy=10, Fun=0.
-	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-	printf("| Selamat Datang Di THE SIMS SIMULATOR|\n");
-	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("\n\n");
+	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("     | Selamat Datang Di THE SIMS SIMULATOR|\n");
+	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
+
+	printf("TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf("TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf("     TTTTT          HHHHH    HHHHH      EEEE       \n");
+	printf("     TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
+	printf("     TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
+	printf("     TTTTT          HHHHH    HHHHH      EEEE       \n");
+	printf("     TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf("     TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n\n\n");
+
+	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
+	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
+	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
+	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
+
 	Hygiene(*s) = 0;
 	Energy(*s) = 10;
 	Fun(*s) = 0;
