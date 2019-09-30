@@ -1,4 +1,5 @@
 #include "sims.h"
+#include <stdio.h>
 
 void Start (SIMS *s) {
 // Menentukan initial state Sims saat bangun tidur,
@@ -16,7 +17,7 @@ boolean IsFinal (SIMS s) {
 
 void ShowStats (SIMS s) {
 // Mencetak ke layar status dari SIMS saat ini.
-	printf("Status Sims saat ini adalah");
+	printf("Status Sims saat ini adalah\n");
 	printf("Hygiene = %d\n", Hygiene(s));
 	printf("Energy = %d\n", Energy(s));
 	printf("Fun = %d\n", Fun(s));

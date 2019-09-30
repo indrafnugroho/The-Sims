@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include "sims.h"
+#include <string.h>
 
 int main () {
     //Kamus
-    SIMS s; String inwords;
+    SIMS s; 
+    char inwords[100];
 
     Start(&s);
     while (!IsFinal(s)) {
         ShowStats(s); printf("\n");
         printf("What will you do? (type answer in Bahasa)\n");
-        scanf("%s", &inwords);
+        scanf("%s", inwords);
         if (inwords == "Tidur Siang") {
             Nap(&s);
         }
@@ -49,7 +51,7 @@ int main () {
         else if (inwords == "Bermain Komputer") {
             PlayComputer(&s);
         }
-        else if (inwords == "Mandi") {
+        else if (strcmp(inwords, "Mandi") == 0) {
             TakeAShower(&s);
         }
         else if (inwords == "Cuci Tangan") {
