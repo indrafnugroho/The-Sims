@@ -112,7 +112,7 @@ void ReadNewspaper (SIMS *s);
 // Menambah 5 Fun dan mengurangi 5 Energy apabila kedua nilai tersebut valid.
 // Mengeluarkan pesan error apabila kedua nilai tersebut tidak valid.
 
-void ReadNovel (SIMS *s); //10fun -5energy
+void ReadNovel (SIMS *s);
 // Menambah 10 Fun dan mengurangi 5 Energy apabila kedua nilai tersebut valid.
 // Mengeluarkan pesan error apabila kedua nilai tersebut tidak valid.
 
