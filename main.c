@@ -8,10 +8,10 @@ int main () {
     char inwords[100];
 
     Start(&s);
+    ShowStats(s); printf("\n");
     while (!IsFinal(s)) {
-        ShowStats(s); printf("\n");
         printf("What will you do? (type answer in Bahasa)\n");
-
+        printf(">>> ");
         scanf("%[^\n]%*c", inwords);
         if (strcmp(inwords, "Tidur Siang") == 0) {
             Nap(&s);
@@ -68,7 +68,7 @@ int main () {
             ReadNovel(&s);
         }
         else {
-            printf("You put the wrong input. Try again\n");
+            printf("!!! You put the wrong input. Try again !!!\n\n");
         }
     }
 

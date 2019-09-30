@@ -20,10 +20,12 @@ boolean IsFinal (SIMS s) {
 
 void ShowStats (SIMS s) {
 // Mencetak ke layar status dari SIMS saat ini.
-	printf("Status Sims saat ini adalah\n");
-	printf("Hygiene = %d\n", Hygiene(s));
-	printf("Energy = %d\n", Energy(s));
-	printf("Fun = %d\n", Fun(s));
+	printf(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("  Status Sims saat ini adalah   \n");
+	printf("  Hygiene = %d                  \n", Hygiene(s));
+	printf("  Energy = %d                   \n", Energy(s));
+	printf("  Fun = %d                      \n", Fun(s));
+	printf(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n");
 }
 
 boolean IsHygieneValid (SIMS s, int x, char op) {
@@ -61,8 +63,9 @@ void Nap (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Energy tidak valid.
 	if (IsEnergyValid(*s, 10, '+')) {
 		Energy(*s) += 10;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -71,8 +74,9 @@ void Sleep (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Energy tidak valid.
 	if (IsEnergyValid(*s, 15, '+')) {
 		Energy(*s) += 15;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -81,8 +85,9 @@ void EatHamburger (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Energy tidak valid.
 	if (IsEnergyValid(*s, 5, '+')) {
 		Energy(*s) += 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -91,8 +96,9 @@ void EatPizza (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Energy tidak valid.
 	if (IsEnergyValid(*s, 10, '+')) {
 		Energy(*s) += 10;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -101,8 +107,9 @@ void EatSteaknBeans (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Energy tidak valid.
 	if (IsEnergyValid(*s, 15, '+')) {
 		Energy(*s) += 15;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -111,8 +118,9 @@ void DrinkWater (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Hygiene tidak valid.
 	if (IsHygieneValid(*s, 5, '-')) {
 		Energy(*s) -= 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -122,8 +130,9 @@ void DrinkCoffee (SIMS *s) {
 	if (IsEnergyValid(*s, 5, '+') && IsHygieneValid(*s, 10, '-')) {
 		Energy(*s) += 5;
 		Hygiene(*s) -= 10;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -133,8 +142,9 @@ void DrinkJuice (SIMS *s) {
 	if (IsEnergyValid(*s, 10, '+') && IsHygieneValid(*s, 5, '-')) {
 		Energy(*s) += 10;
 		Hygiene(*s) -= 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -143,8 +153,9 @@ void PeePee (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai Hygiene tidak valid.
 	if (IsHygieneValid(*s, 5, '+')) {
 		Hygiene(*s) += 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -154,8 +165,9 @@ void PooPoo (SIMS *s) {
 	if (IsEnergyValid(*s, 5, '-') && IsHygieneValid(*s, 10, '+')) {
 		Energy(*s) -= 5;
 		Hygiene(*s) += 10;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -166,8 +178,9 @@ void GoToCafe (SIMS *s) {
 		Energy(*s) -= 10;
 		Hygiene(*s) -= 5;
 		Fun(*s) += 15;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -177,8 +190,9 @@ void SocMed (SIMS *s) {
 	if (IsEnergyValid(*s, 10, '-') && IsFunValid(*s, 10, '+')) {
 		Energy(*s) -= 10;
 		Fun(*s) += 10;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -188,8 +202,9 @@ void PlayComputer (SIMS *s) {
 	if (IsEnergyValid(*s, 10, '-') && IsFunValid(*s, 15, '+')) {
 		Energy(*s) -= 10;
 		Fun(*s) += 15;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -199,8 +214,9 @@ void TakeAShower (SIMS *s) {
 	if (IsHygieneValid(*s, 15, '+') && IsEnergyValid(*s, 5, '-')) {
 		Hygiene(*s) += 15;
 		Energy(*s) -= 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -209,8 +225,9 @@ void WashHands (SIMS *s) {
 // Mengeluarkan pesan error apabila nilai tersebut tidak valid.
 	if (IsHygieneValid(*s, 5, '+')) {
 		Hygiene(*s) += 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -220,8 +237,9 @@ void ListenToRadio (SIMS *s) {
 	if (IsFunValid(*s, 10, '+') && IsEnergyValid(*s, 5, '-')) {
 		Fun(*s) += 10;
 		Energy(*s) -= 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -231,8 +249,9 @@ void ReadNewspaper (SIMS *s) {
 	if (IsFunValid(*s, 5, '+') && IsEnergyValid(*s, 5, '-')) {
 		Fun(*s) += 5;
 		Energy(*s) -= 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
 
@@ -242,7 +261,8 @@ void ReadNovel (SIMS *s) {
 	if (IsFunValid(*s, 10, '+') && IsEnergyValid(*s, 5, '-')) {
 		Fun(*s) += 10;
 		Energy(*s) -= 5;
+		ShowStats(*s); printf("\n");
 	} else {
-		printf("Aksi tidak valid\n");
+		printf("Aksi tidak valid\n\n");
 	}
 }
