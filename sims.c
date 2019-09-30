@@ -39,10 +39,10 @@ boolean IsHygieneValid (SIMS s, int x, char op) {
 boolean IsEnergyValid (SIMS s, int x, char op) {
 // Menghasilkan true apabila nilai energy awal
 // ditambah/dikurang x valid, yaitu ValMin <= (Energy(S) +- x) <= ValMax
-	if (op =='+') {
-		return ((Energy(s)+x >= ValMin) && (Energy(s)+x <= ValMax));
+	if (op == '+') {
+		return ((Energy(s) + x >= ValMin) && (Energy(s) + x <= ValMax));
 	} else {
-		return ((Energy(s)-x >= ValMin) && (Energy(s)-x <= ValMax));
+		return ((Energy(s) - x >= ValMin) && (Energy(s) - x <= ValMax));
 	}
 }
 

@@ -11,7 +11,8 @@ int main () {
     while (!IsFinal(s)) {
         ShowStats(s); printf("\n");
         printf("What will you do? (type answer in Bahasa)\n");
-        scanf("%s", inwords);
+
+        scanf("%[^\n]%*c", inwords);
         if (strcmp(inwords, "Tidur Siang") == 0) {
             Nap(&s);
         }
