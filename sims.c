@@ -34,7 +34,7 @@ void Start (SIMS *s) {
 	printf(" | >>> Minum Jus              >>> Membaca Koran                |\n");
 	printf(" | >>> Buang Air Kecil        >>> Membaca Novel                |\n");
 	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
-	printf("Good Morning! Have a Nice Day!!!\n");
+	printf("  Good Morning! Have a Nice Day!!!\n");
 
 	Hygiene(*s) = 0;
 	Energy(*s) = 10;

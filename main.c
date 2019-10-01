@@ -68,9 +68,9 @@ int main () {
             ReadNovel(&s);
         }
         else {
-            printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
-            printf("!!! You put the wrong input. Try again !!!\n\n");
-            printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
+            printf("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
+            printf("  !!! You put the wrong input. Try again !!!\n\n");
+            printf("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
         }
     }
 
