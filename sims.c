@@ -5,28 +5,28 @@ void Start (SIMS *s) {
 // Menentukan initial state Sims saat bangun tidur,
 // yaitu Hygiene=0, Energy=10, Fun=0.
 	printf("\n\n");
-	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-	printf("     | Selamat Datang Di THE SIMS SIMULATOR|\n");
-	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
+	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("  |           Welcome to THE SIMS SIMULATOR       |\n");
+	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
 
-	printf(" TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
-	printf(" TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf("  TTTTTTTTTTTTTT     HHHHH    HHHHH      EEEEEEEEEE\n");
+	printf("  TTTTTTTTTTTTTT     HHHHH    HHHHH      EEEEEEEEEE\n");
 	printf("      TTTTT          HHHHH    HHHHH      EEEE       \n");
-	printf("      TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
-	printf("      TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
+	printf("      TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEE\n");
+	printf("      TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEE\n");
 	printf("      TTTTT          HHHHH    HHHHH      EEEE       \n");
-	printf("      TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n");
-	printf("      TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n\n\n");
+	printf("      TTTTT          HHHHH    HHHHH      EEEEEEEEEE\n");
+	printf("      TTTTT          HHHHH    HHHHH      EEEEEEEEEE\n\n\n");
 
-	printf("  SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
-	printf("  SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
-	printf("  SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n\n\n");
+	printf("   SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
+	printf("   SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
+	printf("   SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n\n\n");
 
-	printf("Aksi yang valid adalah sebagai berikut \nPerhatikan penulisan huruf kapital\n");
+	printf("  Valid actions are provided below\n  Please pay attention to the capital letters\n");
 	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 	printf(" |   >>> Tidur Siang               >>> Buang Air Besar              |\n");
 	printf(" |   >>> Tidur Malam               >>> Bersosialisasi ke Kafe       |\n");
-	printf(" |   >>> Makan Hamburger           >>> Bermian Media Sosial         |\n");
+	printf(" |   >>> Makan Hamburger           >>> Bermain Media Sosial         |\n");
 	printf(" |   >>> Makan Pizza               >>> Bermain Komputer             |\n");
 	printf(" |   >>> Makan Steak and Beans     >>> Mandi                        |\n");
 	printf(" |   >>> Minum Air                 >>> Cuci Tangan                  |\n");
@@ -34,7 +34,7 @@ void Start (SIMS *s) {
 	printf(" |   >>> Minum Jus                 >>> Membaca Koran                |\n");
 	printf(" |   >>> Buang Air Kecil           >>> Membaca Novel                |\n");
 	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
-	printf("Selamat Pagi! Selamat beraktivitas!!!\n");
+	printf("Good Morning! Have a Nice Day!!!\n");
 
 	Hygiene(*s) = 0;
 	Energy(*s) = 10;
@@ -49,12 +49,12 @@ boolean IsFinal (SIMS s) {
 
 void ShowStats (SIMS s) {
 // Mencetak ke layar status dari SIMS saat ini.
-	printf(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-	printf("  Status Sims saat ini adalah   \n");
-	printf("  Hygiene = %d                  \n", Hygiene(s));
-	printf("  Energy = %d                   \n", Energy(s));
-	printf("  Fun = %d                      \n", Fun(s));
-	printf(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n");
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("| Sims' current states: |\n");
+	printf("| Hygiene = %d          |\n", Hygiene(s));
+	printf("| Energy = %d           |\n", Energy(s));
+	printf("| Fun = %d              |\n", Fun(s));
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 }
 
 boolean IsHygieneValid (SIMS s, int x, char op) {

@@ -76,14 +76,14 @@ int main () {
 
     if (IsFinal(s)) {
 		
-		printf("YYY        YYY     EEEEEEEEEEE     YYY        YYY\n");	    	
-		printf(" YYY      YYY      EEEEEEEEEEE      YYY      YYY \n");	
-		printf("  YYY    YYY       EEEE              YYY    YYY  \n");	
-		printf("   YYY  YYY        EEEEEEEEEEE        YYY  YYY   \n");	
-		printf("    YYYYYY         EEEEEEEEEEE         YYYYYY    \n");	
-		printf("     YYYY          EEEE                 YYYY     \n");	
-		printf("     YYYY          EEEEEEEEEEE          YYYY     \n");	
-		printf("     YYYY          EEEEEEEEEEE          YYYY     \n\n\n");	
+		printf("YYY        YYY        AAAAAA      YYY        YYY\n");	    	
+		printf(" YYY      YYY        AAA  AAA      YYY      YYY \n");	
+		printf("  YYY    YYY        AAA    AAA      YYY    YYY  \n");	
+		printf("   YYY  YYY        AAAA     AAA      YYY  YYY   \n");	
+		printf("    YYYYYY        AAAAAAAAAAAAAA      YYYYYY    \n");	
+		printf("     YYYY        AAA          AAA      YYYY     \n");	
+		printf("     YYYY       AAA            AAA     YYYY     \n");	
+		printf("     YYYY      AAA              AAA    YYYY     \n\n\n");	
 
         printf("You have finished your game. See you next time!\n");
         printf("You have finished your game. See you next time!\n");
