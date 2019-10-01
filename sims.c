@@ -9,19 +9,32 @@ void Start (SIMS *s) {
 	printf("     | Selamat Datang Di THE SIMS SIMULATOR|\n");
 	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
 
-	printf("TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
-	printf("TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
-	printf("     TTTTT          HHHHH    HHHHH      EEEE       \n");
-	printf("     TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
-	printf("     TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
-	printf("     TTTTT          HHHHH    HHHHH      EEEE       \n");
-	printf("     TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n");
-	printf("     TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n\n\n");
+	printf(" TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf(" TTTTTTTTTTTTTTTT    HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf("      TTTTT          HHHHH    HHHHH      EEEE       \n");
+	printf("      TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
+	printf("      TTTTT          HHHHHHHHHHHHHH      EEEEEEEEEEE\n");
+	printf("      TTTTT          HHHHH    HHHHH      EEEE       \n");
+	printf("      TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n");
+	printf("      TTTTT          HHHHH    HHHHH      EEEEEEEEEEE\n\n\n");
 
-	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
-	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
-	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
-	printf("SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS SI \n");
+	printf("  SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
+	printf("  SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
+	printf("  SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n\n\n");
+
+	printf("Aksi yang valid adalah sebagai berikut \nPerhatikan penulisan huruf kapital\n");
+	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf(" |   >>> Tidur Siang               >>> Buang Air Besar              |\n");
+	printf(" |   >>> Tidur Malam               >>> Bersosialisasi ke Kafe       |\n");
+	printf(" |   >>> Makan Hamburger           >>> Bermian Media Sosial         |\n");
+	printf(" |   >>> Makan Pizza               >>> Bermain Komputer             |\n");
+	printf(" |   >>> Makan Steak and Beans     >>> Mandi                        |\n");
+	printf(" |   >>> Minum Air                 >>> Cuci Tangan                  |\n");
+	printf(" |   >>> Minum Kopi                >>> Mendengarkan Musik di Radio  |\n");
+	printf(" |   >>> Minum Jus                 >>> Membaca Koran                |\n");
+	printf(" |   >>> Buang Air Kecil           >>> Membaca Novel                |\n");
+	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
+	printf("Selamat Pagi! Selamat beraktivitas!!!\n");
 
 	Hygiene(*s) = 0;
 	Energy(*s) = 10;
