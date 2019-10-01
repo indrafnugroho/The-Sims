@@ -76,49 +76,57 @@ int main () {
 
     if (IsFinal(s)) {
 		if (Hygiene(s) == 15) {
-		    printf("YYY        YYY      AAAAAA      YYY        YYY\n");	    	
-		    printf(" YYY      YYY      AAA  AAA      YYY      YYY \n");	
-		    printf("  YYY    YYY      AAA    AAA      YYY    YYY  \n");	
-		    printf("   YYY  YYY      AAA      AAA      YYY  YYY   \n");	
-		    printf("    YYYYYY      AAAAAAAAAAAAAA      YYYYYY    \n");	
-		    printf("     YYYY      AAA          AAA      YYYY     \n");	
-		    printf("     YYYY     AAA            AAA     YYYY     \n");	
-		    printf("     YYYY    AAA              AAA    YYYY     \n\n\n");
+		printf("                       /^\'                             \n");    
+        printf("            /         (/^\')     /                      \n");     
+        printf("       \'   ( \'         \' /     ( \'     /^\'             \n");       
+        printf("      / )   \' |        _|_      \' |   |/^\'|            \n");       
+        printf("     | /    _|_        | |      _|_    \' /             \n");    
+        printf("     _|_    | |        | |      | |    _|_             \n");           
+        printf("     | |    | |        | |      | |    | |             \n");          
+        printf("     | |    | |    ****| |******| |    | |             \n");          
+        printf("     | |****| |****    | |      | |****| |             \n");          
+        printf("    *| |    | |                 | |    | |*****        \n");         
+        printf("  *  | |   Y O U   W I N               | |      *      \n");         
+        printf(" *                                               *     \n");             
+        printf(" | *            Y O U   W I N             !      * |   \n");              
+        printf(" |  *****                                 *****  |     \n");           
+        printf(" |@      **********             **********      @|     \n");          
+        printf(" | @   @           *************           @   @ |     \n");       
+        printf(" |  @@@ @    @                       @    @ @@@  |     \n");            
+        printf(" |       @@@@ @      @       @      @ @@@@       |     \n");             
+        printf("  *            @@@@@@ @     @ @@@@@@            *      \n");               
+        printf("   *                   @@@@@                   *       \n");               
+        printf("    *****                                 *****        \n");                
+        printf("         **********             **********             \n");         
+        printf("                   *************                       \n\n\n");     
+
         }
         else {
-            printf("                                                                                                    \n");
-            printf("                                                                              `.-:///-              \n");
-            printf("                                                                     `.-:-:osyhhhysoyho             \n");
-            printf("                                                           `.-::/os+oyhssoo++++/-./.:hh.            \n");
-            printf("                                                  `.--/+o+yyyyso/++-/+/-:::-.`     s`yh+            \n");
-            printf("                                        `.-:/+o++hyys./::/++/::::-.`               /-+yy`           \n");
-            printf("                              `.-:/+osyyyyoyso+//+/:-::.- `        `.`.:////:`     `o.yh/           \n");
-            printf("                     `.-:/+osyhhhyoo+++++/:-:...`            /+o:/oos+oysoshhy+     +.ohy           \n");
-            printf("           `.-:--+syysyssoo+++++/::::-.`        `-`          ohhhhhyso+oyhhyyhh+    -+-hh-          \n");
-            printf("      -+osyhooy/ /++++-::::-.`            :+ooyyyyo          .hhhhhhhh:`-yhhhyyy`    o`yho          \n");
-            printf("     shy+/+:`.:- :-.`                     :hh+shyyy`          shhyhhhho  +hhyyyy/    ::/hh.         \n");
-            printf("     ohs o.        `.`::-+oo+:.           `yyy++yyy/          :hs/hhhhy` .yyo+hhy    `s`yh+         \n");
-            printf("     -hh-+.  `:ooyyhyysoyy+yhhho`          +yyyyyyhy           yyhhhs/h+./shhhhhh`    /-+hy`        \n");
-            printf("      yho.+   syhhhhhshhhyyhyyhho          .yyhhhyoy:          +hhhh.-yyhyshhhhho     .o.hh:        \n");
-            printf("      /hy.+   /hhhhhhhs`.oyhyyhyh-          ohhhhhhyo          .hhhy`shhhhhhys/.       o`shs        \n");
-            printf("      `yy/-/  .hhhhh+yy- .hhhyhyh/          -hhyhhhhh.          oyyyhhhhy-.`           -/-ss-       \n");
-            printf("       /sy`o   shhhhhhs+  yoyyhhh+           shhhyyhh+          -yhyyhhhh.              o`yy+       \n");
-            printf("       .ss-/-  :hhyhhhhy+shshhys/`           /hyshhhhs           osysyhhh+     `:/+oss  ::/sy`      \n");
-            printf("        oys`o  `yhhoshhhyyhhhhyso+.          `yhhhyyh::          :yhhsyhyy`     yhhhyy- `o`yy/      \n");
-            printf("        :hh-+.  +hhhhhhhh++shhhyyys-          +hhhyoyyy   `.-:/: `yhhhhs+y/     -yhhhy+  /.oys      \n");
-            printf("         yh+.+  .hhhhhhhh: .yyyhhhss          .hhshoyyh- .yhhyhs  +hhyssyhy     `+/:-.`  .+-hs:     \n");
-            printf("         /hy`o`  ohhhhhhy+  +hhhhhsy-  `.-://  shhhhhs/o  ohyyys- .hyso//:-`             .o shs     \n");
-            printf("         `yh/-:  -syhhhhyy. .hhhhhhh+  ohhhhs. :oyyhyyhy. :soo+/-  `           ``.:::-:/++/+yhs     \n");
-            printf("          oys`s   syyyyyyy+  shhhhhyy` /hhhyy+  sy:o+/:-`             `.--:-:/+/::/osyhhhyso+:      \n");
-            printf("          -h/ /-  /yyyyyhyy` :yyyhyss/ `oo++/-                .::::/+++++osyyyy:---//:-.`           \n");
-            printf("           sy+`:  `yyyyyyyh/  sso+/:-.             `  --.-`.-:++/oshhy+oo+/:-.`                     \n");
-            printf("           :.` ``  +ysso+:-.             ``    :::+/::+ooyhhyyso//:-.`                              \n");
-            printf("           `++/./                .-::::/+++/:--+yhhys++/:-.`                                        \n");
-            printf("           `+ys`s`    `.-:::://::++/oosy+yso+:--.`                                                  \n");
-            printf("            .yy/./::/++++oosyhhyyso:/:-.`                                                           \n");
-            printf("             //sosyhhhyso+::-.`                                                                     \n");
-            printf("              -.//:-.`                                                                              \n");
-            printf("                                                                                                    \n\n\n");
+           printf("                    _____  _____                        \n");           
+           printf("                   <     `/     |                       \n");             
+           printf("                    >          (                        \n");       
+           printf("                   |   _     _  |                       \n");           
+           printf("                   |  |_) | |_) |                       \n");       
+           printf("                   |  | \' | |   |                       \n");          
+           printf("                   |            |                       \n");    
+           printf("    ______.________|            |__________  _____      \n");            
+           printf("  _/                                       \'|     |     \n");         
+           printf(" |               T U B E S   T B F O               <     \n");       
+           printf(" |_____.-._________              ____/|___________|     \n");      
+           printf("                   | * 18/09/19 |                       \n");        
+           printf("                   | + 02/10/19 |                       \n");    
+           printf("                   |            |                       \n");   
+           printf("                   |            |                       \n");     
+           printf("                   |   _        <                       \n");  
+           printf("                   |__/         |                       \n");   
+           printf("                    / `--.      |                       \n");     
+           printf("                  0|            |0                      \n");      
+           printf("              |/.00|          -< @000                   \n");         
+           printf("              `\'0`@|     v      |@@0@00                 \n");      
+           printf("            .000@@@|0    |    0 @@@00@0000              \n");     
+           printf("       _.000000@@@@@@00_/0\'_0@@00@@@@@@@000000          \n\n\n");       
+
+
         }
     printf("You have finished your game. See you next time!\n");
     printf("You have finished your game. See you next time!\n");

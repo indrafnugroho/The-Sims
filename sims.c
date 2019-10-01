@@ -5,22 +5,32 @@ void Start (SIMS *s) {
 // Menentukan initial state Sims saat bangun tidur,
 // yaitu Hygiene=0, Energy=10, Fun=0.
 	printf("\n\n");
-	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-	printf("    |             Welcome to THE SIMS SIMULATOR           |\n");
-	printf("     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
 
-	printf("     TTTTTTTTTTTTTT       HHHHH    HHHHH        EEEEEEEEEE\n");
-	printf("     TTTTTTTTTTTTTT       HHHHH    HHHHH        EEEEEEEEEE\n");
-	printf("         TTTTT            HHHHH    HHHHH        EEEE       \n");
-	printf("         TTTTT            HHHHHHHHHHHHHH        EEEEEEEEEE\n");
-	printf("         TTTTT            HHHHHHHHHHHHHH        EEEEEEEEEE\n");
-	printf("         TTTTT            HHHHH    HHHHH        EEEE       \n");
-	printf("         TTTTT            HHHHH    HHHHH        EEEEEEEEEE\n");
-	printf("         TTTTT            HHHHH    HHHHH        EEEEEEEEEE\n\n\n");
-
-	printf("       SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
-	printf("       SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n");
-	printf("       SIMS SIMULATOR SIMS SIMULATOR SIM SIMULATOR SIMS\n\n\n");
+	printf("                                                         ,-,-.            \n");      
+	printf("                                                       _(    _)           \n");         
+	printf("                                                      (__,`-'             \n");               
+	printf("                                            ,'`.   .-----,                \n");                  
+	printf("                             __           ,','`.`.  |   |                 \n");              
+	printf("                  _____    ,'  `.       ,','    `.`.|---|                 \n");                     
+	printf("              _,-'     \'  /      \'    ,',' _____  `.`.  |                 \n");               
+	printf("           ,-'          \' \'      /  ,','  |  |  |   `.`.|                 \n");                
+	printf("         ,'           ___\' `.__.' ,','__  |--|--|   __'.`.         _      \n");                
+	printf("        /         _,-'     .----. \'|    \' |__|__|  /    |/      ,-' \' TM  \n");                 
+	printf("       |        ,'         |    |  |     \'        /     |    ,-'    _\'    \n");                 
+	printf("       |        |          |    |  |      \'      /      |  ,'    ,-'      \n");                   
+	printf("        \'       \'          |    |  |       \'    /       | /     /         \n");             
+	printf("         \'       \'         |    |  |        \'  /        | |    (          \n");                 
+	printf("          \'       `.       |    |  |         \'/         |  \'    \'         \n");            
+	printf(" ____ _    `.       `.     |    |  |    \'          /    |   `.   `.       \n");            
+	printf("'-..-'||     `.       `.   |    |  |    |\'        /|    |     `.   `.     \n");               
+	printf("  ||  ||__   __`.       \'  |    |  |    | \'      / |    |       \'    \'    \n");               
+	printf("  ||  |.-.\' /__\' \'       \' |    |  |    |  \'    /  |    |      ,'    /    \n");             
+	printf("  ||  || || \'__, /       | |    |  |    |   \'__/   |    | __,-'    ,'     \n");            
+	printf("               ,'        / |    |  |    |          |    | \'     ,-'       \n");           
+	printf("        ____,-'        ,'  |____|  |    |          |    |  \'_,-'          \n");          
+	printf("        \'            ,'            |____|          |____|                 \n");          
+	printf("         \'       _,-'                                                     \n");                  
+	printf("          \'___,-'                                                         \n\n\n");                      
 
 	printf("  Valid actions are provided below\n  Please pay attention to the capital letters\n");
 	printf("  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
