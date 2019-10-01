@@ -8,16 +8,15 @@ int main () {
     char inwords[100];
     char confirm[100];
     boolean IsFinish = false;
-    boolean IsExit;
+    boolean IsExit = false;
     boolean IsConfirm;
 
     Start(&s);
     ShowStats(s); printf("\n");
 
-    while (!(IsExit)){
+    while (!(IsExit)) {
         while (!IsFinish) {
             IsConfirm = false;
-            IsExit = false;
             printf("What will you do? (type answer in Bahasa)\n");
             printf(">>> ");
             scanf("%[^\n]%*c", inwords);
@@ -76,9 +75,9 @@ int main () {
                 ReadNovel(&s);
             }
             else {
-                printf("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
-                printf("  !!! You put the wrong input. Try again !!!\n\n");
-                printf("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
+                printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
+                printf("!!! You put the wrong input. Try again !!!\n\n");
+                printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n");
             }
 
             if(IsFinal(s)){
@@ -140,27 +139,25 @@ int main () {
             }
         }
 
-        printf("You have finished your game. \nDo You Want to continue this game? (Yes/No)\n");
-        printf(">>> ");
+        printf("You have finished your game. \n");
 
         while (!(IsConfirm)){
+            printf("Do You Want to continue? (Yes/No)\n");
+            printf(">>> ");
             scanf("%[^\n]%*c", confirm);
             if (strcmp(confirm, "Yes") == 0) {
-                IsExit = false;
                 IsConfirm = true;
                 IsFinish = false;
                 ShowStats(s);
                 printf("\n");
             }
             else if (strcmp(confirm, "No") == 0) {
-                IsExit = true;
                 IsConfirm = true;
-                IsFinish = true;
+                IsExit = true;
                 printf("See you next time!!!\n");
             }
             else{
-                printf("Input Yes/No only, please\n");
-                printf(">>> ");
+                printf("Invalid Input\n\n");
             }
         }
     }
