@@ -133,7 +133,7 @@ void DrinkWater (SIMS *s) {
 // Mengurangi 5 Hygiene apabila nilai Hygiene valid.
 // Mengeluarkan pesan error apabila nilai Hygiene tidak valid.
 	if (IsHygieneValid(*s, 5, '-')) {
-		Energy(*s) -= 5;
+		Hygiene(*s) -= 5;
 		ShowStats(*s); printf("\n");
 	} else {
 		printf("Aksi tidak valid\n\n");

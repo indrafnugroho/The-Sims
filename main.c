@@ -75,7 +75,19 @@ int main () {
     }
 
     if (IsFinal(s)) {
-        printf("You have finished your game. See you next time!");
+		
+		printf("YYY        YYY     EEEEEEEEEEE     YYY        YYY\n");	    	
+		printf(" YYY      YYY      EEEEEEEEEEE      YYY      YYY \n");	
+		printf("  YYY    YYY       EEEE              YYY    YYY  \n");	
+		printf("   YYY  YYY        EEEEEEEEEEE        YYY  YYY   \n");	
+		printf("    YYYYYY         EEEEEEEEEEE         YYYYYY    \n");	
+		printf("     YYYY          EEEE                 YYYY     \n");	
+		printf("     YYYY          EEEEEEEEEEE          YYYY     \n");	
+		printf("     YYYY          EEEEEEEEEEE          YYYY     \n\n\n");	
+
+        printf("You have finished your game. See you next time!\n");
+        printf("You have finished your game. See you next time!\n");
+        printf("You have finished your game. See you next time!\n");
     }
     return 0;
 }

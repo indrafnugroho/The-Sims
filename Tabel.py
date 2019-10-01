@@ -14,6 +14,6 @@ for j in range (3, 66):
 				df.iloc[j,5] = df.iloc[k,1]
 
 print(df.head())
-writer = pd.ExcelWriter('DFA.xlsx')
+writer = pd.ExcelWriter('Fauzan.xlsx')
 df.to_excel(writer,'Sheet1')
 writer.save()
