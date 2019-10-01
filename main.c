@@ -49,7 +49,7 @@ int main () {
         else if (strcmp(inwords, "Bermain Media Sosial") == 0) {
             SocMed(&s);
         }
-        else if (strcmp(inwords, "Bermain Komputer") == 0) {
+        else if (strcmp(inwords, "Bermain komputer") == 0) {
             PlayComputer(&s);
         }
         else if (strcmp(inwords, "Mandi") == 0) {
@@ -74,20 +74,54 @@ int main () {
         }
     }
 
-    if (IsFinal(s)) {
-		
-		printf("YYY        YYY        AAAAAA      YYY        YYY\n");	    	
-		printf(" YYY      YYY        AAA  AAA      YYY      YYY \n");	
-		printf("  YYY    YYY        AAA    AAA      YYY    YYY  \n");	
-		printf("   YYY  YYY        AAAA     AAA      YYY  YYY   \n");	
-		printf("    YYYYYY        AAAAAAAAAAAAAA      YYYYYY    \n");	
-		printf("     YYYY        AAA          AAA      YYYY     \n");	
-		printf("     YYYY       AAA            AAA     YYYY     \n");	
-		printf("     YYYY      AAA              AAA    YYYY     \n\n\n");	
-
+    /*if (IsFinal(s)) {
+		if (Hygiene(s)==0) {
+		    printf("YYY        YYY      AAAAAA      YYY        YYY\n");	    	
+		    printf(" YYY      YYY      AAA  AAA      YYY      YYY \n");	
+		    printf("  YYY    YYY      AAA    AAA      YYY    YYY  \n");	
+		    printf("   YYY  YYY      AAA      AAA      YYY  YYY   \n");	
+		    printf("    YYYYYY      AAAAAAAAAAAAAA      YYYYYY    \n");	
+		    printf("     YYYY      AAA          AAA      YYYY     \n");	
+		    printf("     YYYY     AAA            AAA     YYYY     \n");	
+		    printf("     YYYY    AAA              AAA    YYYY     \n\n\n");
+        }
+        else {
+            printf("\n
+                                                                              `.-:///-              \n
+                                                                     `.-:-:osyhhhysoyho             \n
+                                                           `.-::/os+oyhssoo++++/-./.:hh.            \n
+                                                  `.--/+o+yyyyso/++-/+/-:::-.`     s`yh+            \n
+                                        `.-:/+o++hyys./::/++/::::-.`               /-+yy`           \n
+                              `.-:/+osyyyyoyso+//+/:-::.- `        `.`.:////:`     `o.yh/           \n
+                     `.-:/+osyhhhyoo+++++/:-:...`            /+o:/oos+oysoshhy+     +.ohy           \n
+           `.-:--+syysyssoo+++++/::::-.`        `-`          ohhhhhyso+oyhhyyhh+    -+-hh-          \n
+      -+osyhooy/ /++++-::::-.`            :+ooyyyyo          .hhhhhhhh:`-yhhhyyy`    o`yho          \n
+     shy+/+:`.:- :-.`                     :hh+shyyy`          shhyhhhho  +hhyyyy/    ::/hh.         \n
+     ohs o.        `.`::-+oo+:.           `yyy++yyy/          :hs/hhhhy` .yyo+hhy    `s`yh+         \n
+     -hh-+.  `:ooyyhyysoyy+yhhho`          +yyyyyyhy           yyhhhs/h+./shhhhhh`    /-+hy`        \n
+      yho.+   syhhhhhshhhyyhyyhho          .yyhhhyoy:          +hhhh.-yyhyshhhhho     .o.hh:        \n
+      /hy.+   /hhhhhhhs`.oyhyyhyh-          ohhhhhhyo          .hhhy`shhhhhhys/.       o`shs        \n
+      `yy/-/  .hhhhh+yy- .hhhyhyh/          -hhyhhhhh.          oyyyhhhhy-.`           -/-ss-       \n
+       /sy`o   shhhhhhs+  yoyyhhh+           shhhyyhh+          -yhyyhhhh.              o`yy+       \n
+       .ss-/-  :hhyhhhhy+shshhys/`           /hyshhhhs           osysyhhh+     `:/+oss  ::/sy`      \n
+        oys`o  `yhhoshhhyyhhhhyso+.          `yhhhyyh::          :yhhsyhyy`     yhhhyy- `o`yy/      \n
+        :hh-+.  +hhhhhhhh++shhhyyys-          +hhhyoyyy   `.-:/: `yhhhhs+y/     -yhhhy+  /.oys      \n
+         yh+.+  .hhhhhhhh: .yyyhhhss          .hhshoyyh- .yhhyhs  +hhyssyhy     `+/:-.`  .+-hs:     \n
+         /hy`o`  ohhhhhhy+  +hhhhhsy-  `.-://  shhhhhs/o  ohyyys- .hyso//:-`             .o shs     \n
+         `yh/-:  -syhhhhyy. .hhhhhhh+  ohhhhs. :oyyhyyhy. :soo+/-  `           ``.:::-:/++/+yhs     \n
+          oys`s   syyyyyyy+  shhhhhyy` /hhhyy+  sy:o+/:-`             `.--:-:/+/::/osyhhhyso+:      \n
+          -h/ /-  /yyyyyhyy` :yyyhyss/ `oo++/-                .::::/+++++osyyyy:---//:-.`           \n
+           sy+`:  `yyyyyyyh/  sso+/:-.             `  --.-`.-:++/oshhy+oo+/:-.`                     \n
+           :.` ``  +ysso+:-.             ``    :::+/::+ooyhhyyso//:-.`                              \n
+           `++/./                .-::::/+++/:--+yhhys++/:-.`                                        \n
+           `+ys`s`    `.-:::://::++/oosy+yso+:--.`                                                  \n
+            .yy/./::/++++oosyhhyyso:/:-.`                                                           \n
+             //sosyhhhyso+::-.`                                                                     \n
+              -.//:-.`                                                                              \n\n\n")
+        }
         printf("You have finished your game. See you next time!\n");
         printf("You have finished your game. See you next time!\n");
         printf("You have finished your game. See you next time!\n");
-    }
+    }*/
     return 0;
 }
